@@ -155,7 +155,18 @@ sudo dnf install code
 
 ## 🔧 VS Code Extensions Installation
 
-After installing VS Code, you'll need these essential extensions:
+After installing VS Code, you'll need these essential extensions: 
+
+### Required Extensions:
+- **Python** (ms-python.python) - Python language support
+- **Pylance** (ms-python.vscode-pylance) - Enhanced Python language server
+- **Jupyter** (ms-toolsai.jupyter) - Jupyter notebook support
+
+### Recommended Extensions:
+- **Python Black Formatter** - Code formatting
+- **Flake8** - Code linting
+- **YAML** - YAML file support
+- **JSON** - Enhanced JSON support
 
 ### Method 1: Install via VS Code Interface
 1. Open VS Code
@@ -179,16 +190,7 @@ code --install-extension ms-python.flake8
 code --install-extension ms-python.autopep8
 ```
 
-### Required Extensions:
-- **Python** (ms-python.python) - Python language support
-- **Pylance** (ms-python.vscode-pylance) - Enhanced Python language server
-- **Jupyter** (ms-toolsai.jupyter) - Jupyter notebook support
 
-### Recommended Extensions:
-- **Python Black Formatter** - Code formatting
-- **Flake8** - Code linting
-- **YAML** - YAML file support
-- **JSON** - Enhanced JSON support
 
 ---
 
