@@ -14,13 +14,13 @@ This guide will help you set up your development environment for the AI Security
 
 ## 🐍 Python Installation
 
-** We reccommend 3.11.8 **
+** We reccommend 3.11 **
 
 ### Windows
 
 **Web Install:**
 1. Visit [python.org](https://www.python.org/downloads/windows/)
-2. Download the latest Python 3.11.8 installer
+2. Download the latest Python 3.11 installer
 3. Run the installer and **check "Add Python to PATH"**
 4. Select "Install for all users" (recommended)
 5. Verify installation by opening Command Prompt and typing: `python --version`
@@ -36,14 +36,14 @@ choco install python
 
 **Command Line (using Winget):**
 ```powershell
-winget install Python.Python.3.11.8
+winget install Python.Python.3.11
 ```
 
 ### macOS
 
 **Web Install:**
 1. Visit [python.org](https://www.python.org/downloads/macos/)
-2. Download the latest Python 3.11.8 installer
+2. Download the latest Python 3.11 installer
 3. Run the installer package
 4. Verify installation: `python3 --version`
 
